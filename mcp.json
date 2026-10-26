@@ -1,0 +1,27 @@
+{
+  "mcpServers": {
+    "hashkey-gaming-state-ai": {
+      "command": "cargo",
+      "args": [
+        "run",
+        "--release",
+        "--quiet"
+      ],
+      "env": {
+        "RUST_LOG": "info",
+        "HACKATHON_TRACK": "HashKey Chain",
+        "PROJECT_TICKER": "HKGAME"
+      },
+      "tools": [
+        {
+          "name": "verify_hkgame_invariants",
+          "description": "Verifies deterministic invariants for HashKey Gaming State AI on HashKey Chain."
+        },
+        {
+          "name": "execute_hkgame_action",
+          "description": "Executes authenticated Gaming state transition."
+        }
+      ]
+    }
+  }
+}

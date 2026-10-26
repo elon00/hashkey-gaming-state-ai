@@ -1,0 +1,9 @@
+[package]
+name = "hashkey-gaming-state-ai"
+version = "1.0.0"
+edition = "2021"
+authors = ["Martin Luther <martinlutherupa1@gmail.com>"]
+description = "High-TPS game state machine with Conway invariants"
+license = "MIT"
+
+[dependencies]
